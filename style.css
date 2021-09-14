@@ -50,7 +50,7 @@ p, li {
 
 /* || header layout */
 
-nav, article, aside, footer {
+nav, aside, footer {
   background-color: white;
   padding: 1%;
 }
@@ -110,23 +110,32 @@ input[type="submit"] {
 
 /* || main layout */
 
-main {
+
+
+
+
+/* Project */
+.wrapper-img {
   display: flex;
 }
 
-article {
-  flex: 4;
+.img {
+  background-color: yellow;
+  border: solid 2px violet;
+  width: 20rem;
+  height: 30rem;
 }
 
-aside {
-  flex: 1;
-  margin-left: 10px;
-  background-color: #ff80ff;
+#menu-tp {
+  position: fixed;
+  bottom: 50px;
 }
 
-aside li {
-  padding-bottom: 10px;
+.bloc {
+  background-color: red;
 }
+
+
 
 footer {
   margin-top: 10px;
